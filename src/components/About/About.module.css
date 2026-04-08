@@ -1,0 +1,27 @@
+.About {
+	width: 658px;
+	height: 143px;
+	margin-top: 24px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 12px;
+	padding: 24px;
+	row-gap: 16px;
+	background-color: #FFFFFF;
+	display: flex;
+	flex-direction: column;
+}
+
+.title {
+	font-family: Open Sans;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 135%;
+}
+
+.text {
+	font-family: Open Sans;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+}

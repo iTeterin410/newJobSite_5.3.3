@@ -1,0 +1,110 @@
+.header {
+	width: 100%;
+	height: 60px;
+	background-color: #FFFFFF;
+	align-items: center;
+	box-shadow: 0px 2px 22.5px 0px #1C1D1F0D;
+	display: flex;
+	justify-content: center;
+	text-decoration: none;
+}
+
+.header_logo {
+	display: flex;
+	position: fixed;
+	top: 15px;
+	left: 20px;
+	align-items: center;
+	width: 116px;
+	height: 30px;
+	gap: 10px;
+}
+
+.header__icon {
+	width: 30px;
+	height: 30px;
+}
+
+.header__text {
+	font-weight: 600;
+}
+
+.header_info {
+	display: flex;
+	gap: 24px;
+}
+
+.vacancies {
+	text-decoration: none;
+	color: #0F0F1080;
+	align-items: center;
+}
+
+.vacancies.text {
+	font-weight: 500;
+	color: black;
+	font-size: 14px;
+}
+
+.vacanciesActive {
+	display: flex;
+	align-items: center;
+	gap: 5px;
+	text-decoration: none;
+	font-weight: 500;
+	font-size: 14px;
+	text-decoration: none;
+	color: black;
+}
+
+.vacanciesActive::after {
+	content: '';
+	width: 6px;
+	height: 6px;
+	background-image: url('../../assets/Ellipse.svg');
+	background-repeat: no-repeat;
+}
+
+.about {
+	display: flex;
+	height: 24px;
+	align-items: center;
+	gap: 5px;
+	text-decoration: none;
+	color: #0F0F1080;
+}
+
+.image {
+	width: 24px;
+	height: 24px;
+}
+
+.about.text {
+	font-weight: 500;
+	font-size: 14px;
+	color: #0F0F1080;
+	text-decoration: none;
+}
+
+.aboutActive {
+	display: flex;
+	height: 24px;
+	align-items: center;
+	gap: 5px;
+	text-decoration: none;
+	color: black;
+}
+
+.aboutActive::after {
+	content: '';
+	width: 6px;
+	height: 6px;
+	background-image: url('../../assets/Ellipse.svg');
+	background-repeat: no-repeat;
+}
+
+.aboutActive.text {
+	font-weight: 500;
+	font-size: 14px;
+	color: black;
+}
