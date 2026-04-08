@@ -1,4 +1,4 @@
-node -v: 22.19.0
-npm -v: 10.9.3
+5.3.3 «Добавление роута, Layout, Link и useMatch»
 
-GitHub - pages: https://aleksey056.github.io/newJobSite_5.3.2
+
+https://iteterin410.github.io/newJobSite_5.3.3/vacancies?skills=TypeScript%2CReact%2CRedux
