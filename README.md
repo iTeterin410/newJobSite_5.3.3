@@ -1,4 +1,4 @@
 5.3.3 «Добавление роута, Layout, Link и useMatch»
 
 
-https://iteterin410.github.io/newJobSite_5.3.3/vacancies?skills=TypeScript%2CReact%2CRedux
+https://iteterin410.github.io/newJobSite_5.3.3/
