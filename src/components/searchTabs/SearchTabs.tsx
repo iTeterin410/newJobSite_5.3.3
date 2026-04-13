@@ -1,5 +1,5 @@
 import { Tabs } from '@mantine/core';
-import { useLocation, useNavigate } from 'react-router';
+import { useLocation, useNavigate } from 'react-router-dom';
 import styles from './searchTabs.module.css'
 
 function SearchTabs() {

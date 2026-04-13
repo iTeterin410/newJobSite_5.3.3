@@ -10,5 +10,5 @@ export default defineConfig({
 		environment: 'jsdom',
 		setupFiles: './src/setupTests.tsx',
 	},
-	base: '/newJobSite_5.3.3/'
+	base: '/newJobSite_5.3.3'
 })

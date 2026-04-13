@@ -1,7 +1,10 @@
+body {
+  background-color: #f3f5fa;
+  margin: 0;
+  padding: 0;
+}
+
 #root {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	background-color: #F3F5FA;
-	font-family: Open Sans, sans-serif;
+  min-height: 100vh;
+  background-color: #f3f5fa;
 }

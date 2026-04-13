@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { useTypedDispatch } from '../../hooks/redux';
 import { setFilters } from '../../store/vacancySlice';
 import iconSearch from '../../assets/search.svg'
-import { useSearchParams } from 'react-router';
+import { useSearchParams } from 'react-router-dom';
 
 const Search = () => {
 	const dispatch = useTypedDispatch()

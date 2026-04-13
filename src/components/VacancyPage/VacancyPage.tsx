@@ -1,6 +1,6 @@
 import { Box } from '@mantine/core'
 import styles from './VacancyPage.module.css'
-import { useParams } from 'react-router'
+import { useParams } from 'react-router-dom'
 import { useEffect } from 'react'
 import { useTypedDispatch, useTypedSelector } from '../../hooks/redux'
 import { fetchVacanciById } from '../../store/vacancySlice'

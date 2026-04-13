@@ -1,7 +1,7 @@
 import { Badge, Box, Button, Text } from '@mantine/core';
 import styles from './VacancyCard.module.css'
 import type { WorkFormat } from '../../types/vacancy';
-import { Link } from 'react-router';
+import { Link } from 'react-router-dom';
 
 const CardVacancy = ({ isVacancyList = true, ...vacancy }) => {
 	const { name, alternate_url, id, salary, area, work_format, employer, experience } = vacancy

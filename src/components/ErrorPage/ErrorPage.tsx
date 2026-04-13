@@ -1,6 +1,6 @@
 
 import { Box, Button, Text } from "@mantine/core"
-import { Link } from "react-router"
+import { Link } from "react-router-dom"
 import styles from './ErrorPage.module.css'
 
 const ErrorPage = () => {

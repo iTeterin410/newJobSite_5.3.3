@@ -3,7 +3,7 @@ import Search from "../Search/Search"
 import Skills from "../Skils/Skills"
 import VacancyList from "../VacancyList/VacancyList"
 import styles from './HomePage.module.css'
-import { useSearchParams } from 'react-router'
+import { useSearchParams } from 'react-router-dom'
 import { useTypedDispatch, useTypedSelector } from "../../hooks/redux"
 import { useEffect } from "react"
 import { vacancyFetch } from "../../store/vacancySlice"
