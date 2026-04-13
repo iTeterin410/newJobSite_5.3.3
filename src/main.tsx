@@ -4,16 +4,16 @@ import App from './App.tsx'
 import { Provider } from 'react-redux'
 import { store } from './store/store.ts'
 import { MantineProvider } from '@mantine/core'
-import { BrowserRouter } from 'react-router-dom'  
+import { HashRouter } from 'react-router-dom'  
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-     <BrowserRouter basename="/newJobSite_5.3.3"> 
+     <HashRouter> 
       <Provider store={store}>
         <MantineProvider>
           <App />
         </MantineProvider>
       </Provider>
-    </BrowserRouter>
+    </HashRouter>
   </StrictMode>
 )
